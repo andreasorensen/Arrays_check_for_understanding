@@ -6,7 +6,7 @@ var boolean = [true, false, true, false];
 peopleILove.pop()
 console.log(peopleILove);
 
-// This will remove the element in the number 4 position
+// This will remove all elements except the one in index 4 position, in this case the #5
 console.log(numbers.slice(4));
 
 //This will remove the first element in the array.
@@ -16,3 +16,6 @@ console.log(boolean);
 // This will put back the first element in the array that was removed with the method shift
 boolean.unshift()
 console.log(boolean);
+
+// The index position of an element in an array describes it's position beginning at the number 0.
+//For example: In the above code, I used the slice method to remove all the elements other than the one in the index #4 position, which in this case is 5.
